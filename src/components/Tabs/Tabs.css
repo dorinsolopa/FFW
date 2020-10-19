@@ -1,0 +1,17 @@
+.tab {
+  text-transform: uppercase;
+  color: grey;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+.tab-active {
+  color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+  .tab {
+    padding: 2px 5px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.styleCard {
+  border-radius: 25px;
+  border: solid grey 2px;
+}
+.box {
+  display: flex;
+  padding-bottom: 25px;
+}
+.flex {
+  display: flex;
+  margin: 30px;
+}
+
+.letter {
+  padding-top: 50px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.list {
+  text-align: start;
+}
+.list:hover {
+  color: grey;
+}
+.restCards {
+  padding-bottom: 10px;
+}
