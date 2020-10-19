@@ -13,11 +13,11 @@ class ColorCards extends React.Component {
     return (
       <div className="flex ">
         <div>
-          <InfoCard item={firstCard} width={130} />
+          <InfoCard item={firstCard} width={200} />
         </div>
         <div className="restCards">
           {restCards.map((item, index) => {
-            return <InfoCard item={item} key={index} width={95} />;
+            return <InfoCard item={item} key={index} width={130} />;
           })}
         </div>
       </div>

@@ -1,10 +1,12 @@
 .styleCard {
   border-radius: 25px;
   border: solid grey 2px;
+  padding: 15px;
 }
 .box {
   display: flex;
   padding-bottom: 25px;
+
 }
 .flex {
   display: flex;
@@ -12,17 +14,48 @@
 }
 
 .letter {
-  padding-top: 50px;
+  position: relative;
   font-weight: bolder;
   font-size: 25px;
   color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  top:90px;
+  left: 16px;
 }
 .list {
   text-align: start;
+  font-size: 30px;
+  width: 70%;
 }
 .list:hover {
   color: grey;
 }
 .restCards {
   padding-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .box {
+    display: flex;
+    padding-bottom: 2px;
+  }
+
+  .letter {
+    position: relative;
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+  }
+  .flex {
+    margin: 15px;
+    width: 100%
+  }
+
 }

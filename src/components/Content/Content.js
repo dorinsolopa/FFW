@@ -42,7 +42,9 @@ class Content extends React.Component {
       return "Loading";
     }
     return (
-      <div>{!Array.isArray(data) ? data : <ColorCards cards={data} />}</div>
+      <div>
+      {!Array.isArray(data) ? data : <ColorCards cards={data} />}
+      </div>
     );
   }
 }
